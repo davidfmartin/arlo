@@ -10,6 +10,7 @@ arlo.password=
 arlo.videospath=videos/
 ```
 
+### Build and run the code.
 ```
 python -m venv venv
 . venv/bin/activate
