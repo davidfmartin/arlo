@@ -1,0 +1,2 @@
+#!/bin/sh
+docker run --rm -v /Users/dmartin/projects/davidfmartin/arlo/videos:/opt/arlo/videos -v /Users/dmartin/projects/davidfmartin/arlo/resources:/opt/arlo/resources -e TZ=America/Denver --name arlo arlo:latest
